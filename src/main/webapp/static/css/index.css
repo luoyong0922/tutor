@@ -1,0 +1,183 @@
+#all {
+	height: 60px;
+	width: 70%;
+	margin-left: 15%;
+	background-color: rgba(230, 255, 255, 1);
+}
+
+.all {
+	/*border: solid 1px;*/
+	height: 60px;
+	width: 70%;
+	border-radius: 15px 15px 0 0;
+	margin-left: 15%;
+	margin-top: 2.4%;
+	background-color: rgba(250, 255, 255, 1);
+}
+
+.header ul {
+	/*border: solid 1px;*/
+	font-size: 0;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	/*margin-left: 15.5%;*/
+	margin-left: 15%;
+}
+
+.headerTea ul {
+	/*border: solid 1px;*/
+	font-size: 0;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	/*margin-left: 15.5%;*/
+	margin-left: 20%;
+}
+
+.headerStu ul {
+	/*border: solid 1px;*/
+	font-size: 0;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	/*margin-left: 15.5%;*/
+	margin-left: 30%;
+}
+
+ul li {
+	display: inline-block;
+	width: 158px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.header ul li a {
+	color: black;
+}
+
+.headerTea ul li a {
+	color: black;
+}
+
+.headerStu ul li a {
+	color: black;
+}
+
+.logo {
+	height: 60px;
+	float: left;
+	/*margin-left: 2.5%;*/
+	margin-left: 2.7%;
+}
+
+.slider {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	background: cyan;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+/*  Ripple */
+
+.ripple {
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.4);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	position: absolute;
+	opacity: 1;
+}
+
+.rippleEffect {
+	-webkit-animation: rippleDrop .6s linear;
+	animation: rippleDrop .6s linear;
+}
+
+@-webkit-keyframes rippleDrop {
+	100% {
+		-webkit-transform: scale(2);
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+@keyframes rippleDrop {
+	100% {
+		-webkit-transform: scale(2);
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+#sub {
+	margin-left: 18%;
+	margin-top: 40px;
+}
+
+.sub {
+	border: solid 1px #C3C8CD;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 50px;
+	text-align: center;
+	position: relative;
+}
+
+.sub h3 {
+	position: absolute;
+	left: 35px;
+	bottom: 3px;
+}
+
+.sub:hover {
+	background-color: #BBFFFF;
+}
+
+.img1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#teac {
+	float: none;
+	margin-top: 200px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.teac {
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+.teac1 {
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.teac2 {
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+	border-collapse: collapse;
+	text-align: center;
+}

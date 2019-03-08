@@ -1,0 +1,143 @@
+/*登录*/
+
+body {
+	background-image: url(../img/5.jpg);
+	background-size: cover;
+}
+
+.login {
+	border: solid 1px gainsboro;
+	border-radius: 0 0 15px 15px;
+	width: 70%;
+	height: 517px;
+	margin-left: 15%;
+	background-color: rgba(250, 255, 255, 0.8);
+}
+
+.cont {
+	text-align: center;
+	text-align-last: justify;
+}
+
+#login1 {
+	margin-left: 20%;
+	padding: 1px 6px;
+	letter-spacing: 3px;
+}
+
+.left {
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 12%;
+}
+
+.left1 {
+	width: 80%;
+	margin-right: 20%;
+	font-size: 16px;
+	border-radius: 20px;
+	border: solid 1px #DCDCDC;
+}
+
+.left1:hover {
+	box-shadow: 0 0 50px #cac6c6;
+	background-color: rgba(250, 255, 255, 0.8);
+}
+
+.right {
+	width: 40%;
+	height: 335px;
+	float: right;
+	margin-right: 10%;
+	margin-top: 7%;
+	border-left: solid 1px;
+	border-image: -webkit-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: -moz-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+}
+
+.right1 {
+	width: 80%;
+	margin-top: 10%;
+	margin-left: 20%;
+	font-size: 14px;
+}
+
+.right h2 {
+	font-weight: 100;
+}
+
+#left1 {
+	margin-top: 7%;
+	border-collapse:separate;
+	border-spacing:22px;
+}
+
+#left2 {
+	text-align: center;
+	margin-top: -5%;
+	margin-left: 17%;
+	margin-bottom: 10%;
+	line-height: 2em;
+	letter-spacing: 2px;
+}
+/*注册选择*/
+
+.left2 {
+	width: 30%;
+	height: 45%;
+	float: left;
+	margin-left: 20%;
+	margin-top: 10%;
+	border-radius: 20px;
+	border-image: -webkit-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: -moz-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+}
+
+.left2:hover {
+	box-shadow: 0 0 50px #cac6c6;
+	background-color: rgba(250, 255, 255, 0.9);
+}
+
+.right2 {
+	width: 30%;
+	height: 45%;
+	float: right;
+	margin-right: 20%;
+	margin-top: 10%;
+	border-radius: 20px;
+	border-left: solid 1px;
+	border-image: -webkit-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: -moz-linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+	border-image: linear-gradient( #BBFFFF, #CAC6C6, #BBFFFF) 1 30 1;
+}
+
+.right2:hover {
+	box-shadow: 0 0 50px #cac6c6;
+	background-color: rgba(250, 255, 255, 0.9);
+}
+
+.left3 {
+	width: 80%;
+	margin-top: 10%;
+	margin-right: 20%;
+	font-size: 14px;
+	text-align: right;
+}
+
+.right3 {
+	width: 80%;
+	margin-top: 10%;
+	margin-left: 20%;
+	font-size: 14px;
+}
+
+#join {
+	font-size: 16px;
+	padding: 1px 8px;
+	letter-spacing: 1px;
+}
+
+

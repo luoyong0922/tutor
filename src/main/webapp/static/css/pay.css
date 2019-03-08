@@ -1,0 +1,153 @@
+/*预约*/
+body{
+	background-color: gray;
+	opacity: 0.7;
+}
+.reservation {
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 10%;
+	background-color:#FBB450;
+	width: 650px;
+	padding: 20px 35px 15px 35px;
+	border: 1px solid #eaeaea;
+	box-shadow: 0 0 25px #cac6c6;
+}
+
+#title {
+	margin: auto auto 20px auto;
+	text-align: center;
+}
+
+.cont {
+	text-align: center;
+	text-align-last: justify;
+}
+
+#content {
+	margin-left: 11%;
+}
+
+#submit1 {
+	margin-left: 130%;
+}
+
+
+/*预约结束*/
+
+
+/*教师详细信息*/
+
+#information {
+	/*border: solid 1px;*/
+	margin-top: -0.6%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tou {
+	border: solid 6px #E6E6FA;
+	width: 100px;
+	height: 100px;
+	margin-top: 2%;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.information1 {
+	width: 70%;
+	height: 95px;
+	display: flex;
+	justify-content: center;
+	background-image:url(../img/title1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+}
+
+.information2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.information2 h2 {
+	margin-top: 40%;
+	margin-bottom: 5px;
+}
+
+.information3 {
+	border-top: solid 1px #FFE4E1;
+	width: 50%;
+	height: 100px;
+	margin-bottom: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.information3 p {
+	margin-top: 3%;
+	font-size: 14px;
+}
+
+.information4 {
+	border: solid 1px #FFE4E1;
+	border-radius: 30px;
+	background-color: white;
+	width: 100px;
+	height: 30px;
+	margin-top: -2.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.information5 {
+	border-top: solid 1px #FFE4E1;
+	width: 50%;
+	height: 200px;
+	margin-bottom: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.information5 table {
+	margin-top: 3%;
+	font-size: 16px;
+	width: 500px;
+	height: 150px;
+	text-align: center;
+}
+
+.freetime {
+	border: solid 1px #FFE4E1;
+	border-collapse: collapse;
+}
+
+.button1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#button1,
+#button2,
+#button3 {
+	width: 130px;
+	height: 40px;
+	margin-top: 8%;
+	margin-bottom: 3%;
+	font-size: 18px;
+	letter-spacing: 3px;
+}

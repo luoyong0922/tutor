@@ -1,0 +1,84 @@
+*[hidefocus] {
+	outline: none;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+textarea,
+p,
+blockquote,
+th {
+	padding: 0;
+	margin: 0;
+}
+
+fieldset,
+img,
+html,
+iframe {
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+caption,
+th {
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+}
+
+em,
+strong {
+	font-weight: bold;
+	font-style: normal;
+}
+
+textarea,
+select{
+	font-family: helvetica, arial, simsun, sans-serif;
+	color: #000;
+}
+
+
+
+a,
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+html,
+{
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	overflow: auto;
+	overflow-y: scroll;
+}

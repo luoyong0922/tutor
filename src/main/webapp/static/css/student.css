@@ -1,0 +1,57 @@
+/*注册*/
+
+body {
+	background-image: url(../img/5.jpg);
+	background-size: cover;
+}
+
+.infoStu {
+	border: solid 1px gainsboro;
+	border-radius: 0 0 15px 15px;
+	width: 70%;
+	height: 517px;
+	margin-left: 15%;
+	font-size: 16px;
+	background-color: rgba(250, 255, 255, 1);
+}
+
+.infoStu h2 {
+	font-weight: 100;
+}
+
+.con {
+	border: solid 1px mistyrose;
+	float: left;
+	border-radius: 30px;
+	width: 350px;
+	margin-left: 8%;
+	margin-top: 10%;
+	padding: 16px 20px 10px 20px;
+}
+
+.con:hover {
+	box-shadow: 0 0 50px #cac6c6;
+}
+
+.con2 {
+	margin-top: 5%;
+}
+
+.cont {
+	text-align: center;
+	text-align-last: justify;
+	letter-spacing: 5px;
+}
+
+.img2 {
+	float: right;
+}
+
+#submit {
+	margin-left: 43%;
+	padding: 1px 5px;
+	letter-spacing: 2px;
+}
+
+
+/*注册结束*/
